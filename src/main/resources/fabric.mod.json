@@ -3,35 +3,34 @@
 	"id": "alexatordecorations",
 	"version": "${version}",
 	"name": "Alexator Decorations",
-	"description": "This mod some decorations!",
+	"description": "This is a mod thats add decorations",
 	"authors": [
-		"Alexatorv13"
+		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "MILT",
 	"icon": "assets/alexatordecorations/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.alexatorv13.alexatordecorations.AlexatorAlexatorDecorations"
-		],
-		"client": [
-			"net.alexatorv13.alexatorAlexatorDecorations.AlexatorAlexatorDecorations"
+			"net.alexatorv13.alexatordecorations.AlexatorDecorations"
+		],"client": [
+			"net.alexatorv13.alexatordecorations.AlexatorDecorationsClient"
 		],
 		"fabric-datagen": [
-			"net.alexatorv13.alexatorrandomthings.AlexatorDecorationsDataGenerator"
+			"net.alexatorv13.alexatordecorations.AlexatorDecorationsDataGenerator"
 		]
 	},
 	"mixins": [
-		"AlexatorDecorations.mixins.json"
+		"alexatordecorations.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.24",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
