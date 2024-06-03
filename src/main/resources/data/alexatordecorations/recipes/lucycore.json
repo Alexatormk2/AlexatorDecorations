@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },   "D": {
+      "item": "minecraft:netherite_ingot"
+    },   "a": {
+      "item": "minecraft:diamond_axe"
+    },
+    "X": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+
+   "#X#",
+   "#a#",
+   "#D#"
+  ],
+  "result": {
+    "item": "alexatordecorations:lucycore"
+  },
+  "show_notification": true
+}

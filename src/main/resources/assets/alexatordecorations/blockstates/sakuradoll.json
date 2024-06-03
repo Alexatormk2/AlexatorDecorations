@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "alexatordecorations:block/sakuradoll" },
+    "facing=down": { "model": "alexatordecorations:block/sakuradolll" },
+    "facing=east": { "model":  "alexatordecorations:block/sakuradoll", "y": 90 },
+    "facing=south": { "model":  "alexatordecorations:block/sakuradoll", "y": 180 },
+    "facing=west": { "model":  "alexatordecorations:block/sakuradoll", "y": 270 }
+  }
+}

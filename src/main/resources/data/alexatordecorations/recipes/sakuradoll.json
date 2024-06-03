@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "key": {
+    "#": {
+      "item": "minecraft:pink_wool"
+    },"X": {
+      "item": "minecraft:string"
+    },"A": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "AXA",
+    "#X#"
+  ],
+  "result": {
+    "item": "alexatordecorations:sakuradoll"
+
+  }
+}
