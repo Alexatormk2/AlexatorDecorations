@@ -1,0 +1,10 @@
+
+{
+  "variants": {
+    "facing=north": { "model": "alexatordecorations:block/floortiles1" },
+    "facing=down": { "model": "alexatordecorations:block/floortiles1" },
+    "facing=east": { "model":  "alexatordecorations:block/floortiles1", "y": 90 },
+    "facing=south": { "model":  "alexatordecorations:block/floortiles1", "y": 180 },
+    "facing=west": { "model":  "alexatordecorations:block/floortiles1", "y": 270 }
+  }
+}

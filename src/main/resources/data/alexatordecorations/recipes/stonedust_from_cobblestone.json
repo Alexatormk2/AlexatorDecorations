@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "materials",
+
+  "ingredients": [
+    {
+
+      "item": "alexatordecorations:stonebreaker"
+    },{
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result": {
+    "item": "alexatordecorations:stonedust",
+    "count": 24
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:charcoal"
+    },
+    "X": {
+      "item": "alexatordecorations:stonedust"
+    }
+  },
+  "pattern": [
+
+    "X#",
+    "#X"
+  ],
+  "result": {
+    "item": "alexatordecorations:charstone"
+  },
+  "show_notification": true
+}
