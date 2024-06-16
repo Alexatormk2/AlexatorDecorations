@@ -17,7 +17,8 @@ public class ModItems {
     public static final Item LUCYCORE = registerItem("lucycore", new Item(new FabricItemSettings()));
     public static final Item MIKUGEM = registerItem("mikugem", new Item(new FabricItemSettings()));
     public static final Item STONEDUST = registerItem("stonedust", new Item(new FabricItemSettings()));
-    public static final Item STONEBREAER = registerItem("stonebreaker", new UtilModItem(new FabricItemSettings()));
+    public static final Item STONEBREAKER = registerItem("stonebreaker", new UtilModItem(new FabricItemSettings()));
+    public static final Item LEGACYNEITOR = registerItem("legacyneitor", new UtilModItem(new FabricItemSettings()));
 
 //artifacts
 

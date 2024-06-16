@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "materials",
+
+  "ingredients": [
+    {
+
+      "item": "alexatordecorations:legacyneitor"
+    },{
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "result": {
+    "item": "alexatordecorations:lnetherrack"
+
+  }
+}

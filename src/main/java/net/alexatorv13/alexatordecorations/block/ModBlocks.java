@@ -1,6 +1,7 @@
 package net.alexatorv13.alexatordecorations.block;
 
 import net.alexatorv13.alexatordecorations.AlexatorDecorations;
+import net.alexatorv13.alexatordecorations.block.custom.BaseChairFacing;
 import net.alexatorv13.alexatordecorations.block.custom.BaseTiles;
 import net.alexatorv13.alexatordecorations.block.custom.MikuDoll;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -13,11 +14,16 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockCollisionSpliterator;
 
 public class ModBlocks {
 
     public static final Block CHARSTONE = registerBlocks("charstone", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+    public static final Block REDBRICKS = registerBlocks("redbricks", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+    public static final Block PURPLEBRICKS = registerBlocks("purplebricks", new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+    public static final Block LNETHERRACK = registerBlocks("lnetherrack", new Block(FabricBlockSettings.copyOf(Blocks.NETHERRACK)));
+    public static final Block CHERRY_CHAIR = registerBlocks("cherrychair", new BaseChairFacing(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS).nonOpaque()));
 
     public static final Block MIKUDOLL = registerBlocks("mikudoll", new MikuDoll(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WOOL).nonOpaque()));
     public static final Block SAKURADOLL = registerBlocks("sakuradoll", new MikuDoll(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WOOL).nonOpaque()));

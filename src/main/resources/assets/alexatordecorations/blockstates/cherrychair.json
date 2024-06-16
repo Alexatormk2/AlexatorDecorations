@@ -1,0 +1,13 @@
+{
+  "variants": {
+
+    "facing=north": { "model": "alexatordecorations:block/cherrychair" },
+    "facing=down": { "model": "alexatordecorations:block/cherrychair"},
+    "facing=east": { "model":  "alexatordecorations:block/cherrychair", "y": 90 },
+    "facing=south": { "model":  "alexatordecorations:block/cherrychair", "y": 180 },
+    "facing=west": { "model":   "alexatordecorations:block/cherrychair", "y": 270 }
+
+
+
+  }
+}

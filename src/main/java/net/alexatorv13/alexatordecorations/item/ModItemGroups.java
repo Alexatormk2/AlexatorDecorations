@@ -24,6 +24,23 @@ public class ModItemGroups {
         entries.add(ModBlocks.SAKURADOLL);
         entries.add(ModBlocks.MIKUDOLL);
         entries.add(ModBlocks.CHARSTONE);
+        entries.add(ModBlocks.REDBRICKS);
+        entries.add(ModBlocks.PURPLEBRICKS);
+
+
+    }).build());
+
+    public static final ItemGroup ALEXATOR_LEGACY_BLOCKS = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorDecorations.MOD_ID, "alexator_legacy_blocks"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexatorlegacyblocks")).icon(() -> new ItemStack(ModBlocks.LNETHERRACK)).entries((displayContext, entries) -> {
+
+        entries.add(ModBlocks.LNETHERRACK);
+
+
+    }).build());
+
+
+    public static final ItemGroup ALEXATOR_FURNITURE = Registry.register(Registries.ITEM_GROUP, new Identifier(AlexatorDecorations.MOD_ID, "alexator_furniture"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.alexatorfurniture")).icon(() -> new ItemStack(ModBlocks.CHERRY_CHAIR)).entries((displayContext, entries) -> {
+
+        entries.add(ModBlocks.CHERRY_CHAIR);
 
 
     }).build());
@@ -41,7 +58,8 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.DOLLAR)).entries((displayContext, entries) -> {
 
                 entries.add(ModItems.DOLLAR);
-                entries.add(ModItems.STONEBREAER);
+                entries.add(ModItems.STONEBREAKER);
+                entries.add(ModItems.LEGACYNEITOR);
                 entries.add(ModItems.STONEDUST);
                 entries.add(ModItems.LUCYCORE);
                 entries.add(ModItems.MIKUGEM);
